@@ -1,0 +1,34 @@
+const data = [
+  {
+    title: 'Article 1',
+    description: 'Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc',
+    author: 'Author 1',
+    imageUrl: 'http://ichef.bbci.co.uk/news/976/cpsprodpb/10434/production/_90121666_agreementcartoon.jpg',
+  },
+  {
+    title: 'Article 2',
+    description: 'Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc',
+    author: 'Author 1',
+    imageUrl: 'http://ichef.bbci.co.uk/news/976/cpsprodpb/10434/production/_90121666_agreementcartoon.jpg',
+  },
+  {
+    title: 'Article 3',
+    description: 'Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc',
+    author: 'Author 1',
+    imageUrl: 'http://ichef.bbci.co.uk/news/976/cpsprodpb/10434/production/_90121666_agreementcartoon.jpg',
+  },
+  {
+    title: 'Article 4',
+    description: 'Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc',
+    author: 'Author 1',
+    imageUrl: 'http://ichef.bbci.co.uk/news/976/cpsprodpb/10434/production/_90121666_agreementcartoon.jpg',
+  },
+  {
+    title: 'Article 5',
+    description: 'Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon desc Lon descLon descLon desc Lon desc',
+    author: 'Author 1',
+    imageUrl: 'http://ichef.bbci.co.uk/news/976/cpsprodpb/10434/production/_90121666_agreementcartoon.jpg',
+  }
+];
+
+export { data };
